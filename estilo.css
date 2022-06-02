@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+   background: #9D82FF ; 
+  }
+
+  #header{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #E7E6E6;
+  }
+
+  #inner_header{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #logo{
+    padding: 5px;
+  }
+
+  #WHL{
+    width: 180px;
+    height: 90px;
+  }
+
+  #nav{
+    float: right;
+    height: 100%;
+  }
+
+
+  #nav li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px
+  }
+
+  .navs{
+    height: 60px;
+  }
+
+  #below{
+    width: 100%;
+    height: 40px;
+    background-color: #DD1ED8;
+    border: solid;
+    border-radius: 10px;
+  }
+
+  #below a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 50px;
+  }
+  
+  #below li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%; 
+    font-family: MerriweatherSans-Regular, sans-serif; 
+    font-size: 20px;
+    text-align: center;
+    padding-left: 120px;
+  }
+
+
+  #FindDest h3{
+    color: #19325F;
+    font-family: MerriweatherSans-Regular, sans-serif;
+    font-size: 2em;
+  }
+
+  #FindDest p{
+    color: #19325F;
+    font-family: MerriweatherSans-Regular, sans-serif;
+    font-size: 1em;
+  }
+
+  .Ori{
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+  }
+
+  .Icons{
+    width: 20px;
+    height: 20px;
+  }
+
+  .Botão{
+    width: 40px;
+    height: 30px;
+    border-radius: 9px;
+    background-color: #0C6EF7;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  #lupa{
+    width: 20px;
+  }
+
+  #map{
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    border: solid;
+  }
+
+  @font-face {
+    font-family: 'MerriweatherSans-Regular';
+    src: url(Fontes/MerriweatherSans-Regular.ttf);
+  }

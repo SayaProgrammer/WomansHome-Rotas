@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Woman's Home</title> 
+  <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+  <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/place-search-js/v1.0.0/place-search.css"/>
+  <link href="estilo.css" rel="stylesheet" type="text/css"/>
+ 
+</head>
+
+<body>
+
+  <div id = "header">
+    <div id= "inner_header">
+      <div id = "logo">
+      <img id="WHL" src="Imagens/WH_Logo.png" alt="Woman's Home">
+      
+      <ul id="nav">
+      <li><img class="navs" src="Imagens/User.png" alt="Usuário"></li>
+      <li><img class="navs" src="Imagens/Home.png" alt="Home"></li>
+      <li><img class="navs" src="Imagens/Lang.png" alt="Idiomas"></li>
+      <li><img class="navs" src="Imagens/About.png" alt="Sobre"></li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="below">
+    
+    <ul>
+      <li><a>Sobre nós</a></li>
+      <li><a>Onde estamos</a></li>
+      <li><a>Notícias</a></li>
+      <li><a>Trabalhe conosco</a></li>
+    </ul>
+
+  </div>
+
+  <div id="FindDest">
+    <h3>Encontre seu destino!</h3>
+    <p>Use este mapa para encontrar a melhor rota para a sua nova vida!</p>
+  </div>
+
+  <br>
+
+  <div id="Inputs">
+    <form id="form">
+      <img class="Icons" src="Imagens/Destiny.png" alt="Origem">
+      <input type="text" name="start" id="mapOri" class="Ori" placeholder="Origem...">
+      <br>
+      <br>
+      <img class="Icons" src="Imagens/Destination.png" alt="Destino">
+      <input type="text" name="end" id="mapDest" class="Ori" placeholder="Destino...">
+      <button class="Botão" type="submit">
+        <img id="lupa" src="Imagens/Lupa.png" alt="pesquisar">
+      </button>
+    </form>
+  </div>
+
+  <br>
+  
+  <div id="map"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+  <script src="https://api.mqcdn.com/sdk/place-search-js/v1.0.0/place-search.js"></script>
+  <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=p8RJ9MAXAuryGgNIf3QblXCBZXSt15U6"></script>
+  <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-routing.js?key=p8RJ9MAXAuryGgNIf3QblXCBZXSt15U6"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
